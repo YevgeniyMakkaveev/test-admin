@@ -22,7 +22,6 @@ export class ClientList extends Component {
         throw new Error("Server Error");
       }
       const data = await response.json();
-      console.log(data);
       return data;
     } catch (error) {
       console.log(error);
